@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'SCoreDream';
+}
+
+.backgroundImg{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 2000px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+textarea,
+input {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+    outline: none;
+    box-shadow: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: #2b292d;
+}
+  
+
+
+/* intro */
+.intro-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.intro-title{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.intro-title .title-img{
+    position: absolute;
+    display: block;
+    height: 600px;
+    width: 300px;
+}
+
+.intro-title .title-img-1{
+    position: absolute;
+    display: block;
+    height: 300px;
+    width: 600px;
+    transform: rotate(-0.25turn) translateX(-150px);
+}
+
+.intro-content .intro-subtitle{
+    color: #424242;
+    font-size: 15px;
+    line-height: 1.2;
+    height: 610px;
+}
+
+.intro-subtitle strong{
+    color: #424242;
+    font-size: 30px;
+}
+
+/* video */
+
+.video-main{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(66, 66, 66, 0.2);
+}
+
+.video-title{
+    margin: 40px 0;
+    color: rgba(238, 238, 238, 0.94);
+    font-size: 23px;
+}
+
+
+.video-title i{
+    font-size: 32px;
+    color: rgba(253, 23, 23, 1);
+}
+
+.player{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 350px;
+    border: 3px solid #424242;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #424242;
+}
+/* info */
+
+.info .info-detail{
+    height: 300px;
+    width: 100%;
+}
+
+.info-detail .info-title{
+    margin: 40px 0;
+    color: #424242;
+}
+/* detail */
+
+@media screen and (min-width: 768px) {
+
+}
