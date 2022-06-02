@@ -1,0 +1,20 @@
+{
+  "name": "comeasur",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "chrom index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoonmins/ComeAsYouAre.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoonmins/ComeAsYouAre/issues"
+  },
+  "homepage": "https://github.com/yoonmins/ComeAsYouAre#readme"
+}
