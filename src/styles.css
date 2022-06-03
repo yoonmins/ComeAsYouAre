@@ -103,6 +103,9 @@ p {
 }
 
 /* video */
+.video{
+    width: 100%;
+}
 
 .video-main{
     width: 100%;
@@ -137,6 +140,10 @@ p {
     box-shadow: 3px 3px 3px #424242;
 }
 /* info */
+.infio{
+    width: 100%;
+}
+
 .info-detail{
     height: 680px;
     width: 100%;
@@ -144,10 +151,9 @@ p {
 }
 
 .info-detail .info-title{
-    padding: 20px 0 10px 0 ;
+    padding: 20px 15px 10px 0 ;
     color: #424242;
     font-size: 18px;
-    width: 400px;
 }
 
 .info-day .info-day-title, .info-map-title{
