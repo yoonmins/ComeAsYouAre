@@ -1,21 +1,11 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: 'SCoreDream';
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 body{
-    background-color: bisque;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-}
-
-.backgroundImg{
-    position: absolute;
-    z-index: 0;
-    width: 100vw;
-    height: 2700px;
+    background-color: #E9EEC9;
 }
 
 a {
@@ -26,7 +16,6 @@ a {
 button,
 textarea,
 input {
-    font-family: "DM Sans", sans-serif;
     font-size: 16px;
 }
 
@@ -55,8 +44,6 @@ p {
     font-weight: 400;
     color: #2b292d;
 }
-  
-
 
 /* intro */
 .intro-content{
@@ -64,8 +51,15 @@ p {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    height: 700px;
 }
 
+.backgroundImg{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 700px;
+}
 .intro-title{
     display: flex;
     justify-content: center;
@@ -77,31 +71,67 @@ p {
 
 .intro-title .title-img{
     position: absolute;
-    display: block;
-    height: 600px;
-    width: 300px;
+    z-index: 3;
+    height: 300px;
+    width: 360px;
 }
-
+/* 
 .intro-title .title-img-1{
     position: absolute;
+    z-index: 3;
     display: block;
     height: 300px;
     width: 600px;
     transform: rotate(-0.25turn) translateX(-150px);
+} */
+
+.intro-desc{
+    padding: 20px 15px;
+    background-color: #eeee;
+    text-align: center;
+    height: 580px;
+    width: 100vw;
 }
 
-.intro-content .intro-subtitle{
+.intro-desc .intro-subtitle{
     color: #424242;
     font-size: 15px;
     line-height: 1.2;
-    height: 610px;
+    z-index: 5;
 }
 
-.intro-subtitle strong{
+.intro-desc .intro-subtitle-iche{
+    display: block;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* .intro-desc .intro-subtitle p{
+    padding-bottom: 20px;
+} */
+
+.intro-subtitle .intro-subtitle-main{
     color: #424242;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 700;
 }
 
+.intro-subtitle .intro-subtitle-ich{
+    color: #326d41;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.intro-subtitle .intro-subtitle-ich2{
+    color: #424242;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.intro-subtitle-iche-pha{
+    padding-bottom: 20px;
+}
 /* video */
 .video{
     width: 100%;
@@ -110,7 +140,7 @@ p {
 .video-main{
     width: 100%;
     height: 500px;
-    background-color: rgba(66, 66, 66, 0.2);
+    background-color: rgba(147, 196, 150, 0.8);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,7 +150,7 @@ p {
     margin: 40px 0;
     color: #eeee;
     font-size: 23px;
-    width: 100%;
+    width: 100vw;
 }
 
 
@@ -130,6 +160,7 @@ p {
 }
 
 .player{
+    color: #424242;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -158,7 +189,7 @@ p {
 
 .info-day .info-day-title, .info-map-title{
     text-align: center;
-    color: #f1c232;
+    color: #69AE6C;
     font-size: 32px;
     margin: 20px 0;
 }
@@ -197,23 +228,28 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 520px;
     width: 100%;
     padding-top: 20px;
-    background-color: rgba(66, 66, 66, 0.2);
+    background-color: rgba();
 }
 
 .detail-title{
     width: 400px;
-    color: #f1c232;
+    color: black;
     font-size: 32px;
     margin-bottom: 7px;
     text-align: center;
 }
 
+.detail-title-emoji{
+    font-size: 100px;
+}
+
 .detail-subtitle{
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     color: #424242;
     margin-bottom: 20px;
 }
@@ -233,8 +269,8 @@ p {
 }
 
 .detail-item-menu img{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 20px;
 }
 
@@ -242,6 +278,18 @@ p {
     text-align: center;
     font-size: 10px;
     color: #424242;
+}
+
+.detail-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detail-content img{
+    width: 300px;
+    height: 300px;
 }
 
 @media screen and (min-width: 768px) {
