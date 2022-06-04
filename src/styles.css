@@ -216,6 +216,7 @@ p {
     height: 200px;
     width: 200px;
     border-radius: 10px;
+    box-shadow: 0 2px 3px #424242;
 }
 
 .info-map-google-detail{
@@ -280,6 +281,7 @@ p {
     width: 80px;
     height: 80px;
     border-radius: 20px;
+    box-shadow: 0 2px 3px #424242;
 }
 
 .detail-item-menu h2{
