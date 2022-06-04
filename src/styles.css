@@ -51,14 +51,14 @@ p {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    height: 700px;
+    height: 800px;
 }
 
 .backgroundImg{
     position: absolute;
     z-index: 0;
     width: 100%;
-    height: 700px;
+    height: 800px;
 }
 .intro-title{
     display: flex;
@@ -102,7 +102,7 @@ p {
 
 .intro-desc .intro-subtitle-iche{
     display: block;
-    margin-bottom: 30px;
+    margin: 20px 0 15px 0;
     font-size: 20px;
     font-weight: 700;
 }
@@ -183,7 +183,7 @@ p {
 }
 
 .info-detail .info-title{
-    padding: 20px 15px 10px 0 ;
+    margin: 20px 0 20px 20px;
     color: #424242;
     font-size: 18px;
 }
@@ -230,10 +230,10 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 520px;
+    height: 650px;
     width: 100%;
     padding-top: 20px;
-    background-color: rgba();
+    background-color: rgba(105, 174, 108, 0.8);
 }
 
 .detail-title{
