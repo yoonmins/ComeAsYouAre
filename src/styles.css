@@ -77,15 +77,6 @@ p {
     height: 300px;
     width: 360px;
 }
-/* 
-.intro-title .title-img-1{
-    position: absolute;
-    z-index: 3;
-    display: block;
-    height: 300px;
-    width: 600px;
-    transform: rotate(-0.25turn) translateX(-150px);
-} */
 
 .intro-content .title-desc i{
     font-size: 30px;
@@ -194,12 +185,6 @@ p {
     height: 680px;
     width: 100%;
     background-color: rgb(255, 255, 255);
-}
-
-.info-detail .info-title{
-    margin: 20px 0 20px 20px;
-    color: #424242;
-    font-size: 18px;
 }
 
 .info-day .info-day-title, .info-map-title{
