@@ -1,4 +1,4 @@
-# ComeAsYouAre
+# [ComeAsYouAre](https://yoonmins.github.io/ComeAsYouAre/)
 ## ✨익투스 중등부 행사 웹 페이지 초대장
 디자인 및 UI 설계 (Use gird)
 모바일 초정장 특성상 모바일 화면을 주로 구성하였다.
