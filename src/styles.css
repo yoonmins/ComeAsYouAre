@@ -152,18 +152,21 @@ p {
 }
 
 .video-title{
-    margin: 40px 0 5px 0;
+    margin: 40px 0 20px 0;
     color: #eeee;
     font-size: 23px;
     width: 100vw;
     text-align: center;
 }
-
 .video-main p{
-    margin: 0 0 20px 0;
-    color: #eeee;
-    border-bottom: 1px solid #eeee;
-    font-weight: 400;
+    text-align: center;
+    width: 150px;
+    margin: 0 0 15px 0;
+    border-bottom: 2px solid #eeee;
+}
+
+.video-main p:hover{
+    color: #2e89ce;
 }
 
 .video-title i{
@@ -318,4 +321,8 @@ p {
 .detail-content img{
     width: 300px;
     height: 300px;
+}
+
+@media screen and (min-width: 768px) {
+    
 }
